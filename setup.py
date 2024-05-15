@@ -2,7 +2,7 @@ from setuptools import find_packages, setup
 
 setup(
     name='netbox-extra-files',
-    version='0.1',
+    version='0.2',
     description='Store extra files for objects in Netbox',
     url='https://github.com/emjemj/netbox-extra-files',
     author='Eric Lindsjö',
