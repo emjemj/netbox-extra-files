@@ -3,7 +3,7 @@ from .models import ExtraFile
 
 class CircuitExtraFiles(PluginTemplateExtension):
 
-    model='circuits.circuit'
+    models = ('circuits.circuit',)
 
     def right_page(self):
 
